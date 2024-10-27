@@ -1,0 +1,13 @@
+coverage:
+  status:
+    project:
+      default:
+        target: 80%
+        threshold: 1%
+
+ignore:
+  - "benchmarks/**"
+  - "mesa/experimental/**"
+  - "mesa/visualization/**"
+
+comment: off
